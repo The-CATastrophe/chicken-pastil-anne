@@ -1,0 +1,528 @@
+{
+  "restaurant": {
+    "name": "Chicken Pastil-Anne",
+    "tagline": "Tulog kana nakangiti kapa!",
+    "address": "C. Mercado St (Cruz), Guiguinto, Philippines",
+    "phone": "0909 059 8491",
+    "gcash": "0909 059 8491",
+    "facebook": "Chicken Pastil-Anne",
+    "currency": "₱",
+    "deliveryFee": 50,
+    "hours": {
+      "Monday": "11:00 AM - 12:00 AM",
+      "Tuesday": "11:00 AM - 12:00 AM",
+      "Wednesday": "11:00 AM - 12:00 AM",
+      "Thursday": "11:00 AM - 12:00 AM",
+      "Friday": "11:00 AM - 12:00 AM",
+      "Saturday": "11:00 AM - 12:00 AM",
+      "Sunday": "CLOSED"
+    },
+    "services": ["Delivery", "Contactless Delivery", "Takeout", "Outdoor Seating", "Online Booking", "Reservations", "In-store Pick-up"]
+  },
+  "categories": [
+    {
+      "id": "pastil-corner",
+      "name": "Pastil Corner",
+      "subtitle": "No Unli Rice",
+      "icon": "bowl",
+      "items": [
+        {
+          "id": "pastil-regular",
+          "name": "Pastil w/ Rice",
+          "description": "Classic pastil served with rice",
+          "price": 35,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-2pcs",
+          "name": "2pcs Pastil w/ Rice",
+          "description": "Two pieces of pastil with rice — Buy 1 Take 1",
+          "price": 65,
+          "badge": "Buy 1 Take 1",
+          "available": true
+        },
+        {
+          "id": "pastil-l1",
+          "name": "L1 — Special Garlic",
+          "description": "Special garlic longganisa, egg, kamatis, talong, pipino",
+          "price": 99,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-l2",
+          "name": "L2 — Special Spicy",
+          "description": "Special spicy longganisa, egg, kamatis, talong, pipino",
+          "price": 99,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-combo1",
+          "name": "Combo 1",
+          "description": "Maling, pipino, kamatis, talong",
+          "price": 79,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-combo2",
+          "name": "Combo 2",
+          "description": "Maling, pipino, egg, kamatis, talong",
+          "price": 89,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-classic",
+          "name": "Classic",
+          "description": "Pastil w/ rice, egg, kamatis, pipino",
+          "price": 59,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pastil-overload",
+          "name": "Overload",
+          "description": "Longganisa, luncheon maling, egg, talong, kamatis, pipino",
+          "price": 119,
+          "badge": "Best Value",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "boneless-chicken",
+      "name": "Flavored Boneless Chicken",
+      "subtitle": "Unli Rice + Free Softdrinks + Soup",
+      "icon": "chicken",
+      "items": [
+        {
+          "id": "chicken-gravy",
+          "name": "Boneless Chicken — Gravy",
+          "description": "Crispy boneless chicken with gravy flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "chicken-kbbq",
+          "name": "Boneless Chicken — Korean BBQ",
+          "description": "Crispy boneless chicken with Korean BBQ flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "chicken-honeybutter",
+          "name": "Boneless Chicken — Honey Butter",
+          "description": "Crispy boneless chicken with honey butter flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "chicken-soygarlic",
+          "name": "Boneless Chicken — Soy Garlic",
+          "description": "Crispy boneless chicken with soy garlic flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "chicken-cheese",
+          "name": "Boneless Chicken — Cheese",
+          "description": "Crispy boneless chicken with cheese flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "chicken-garlicmayo",
+          "name": "Boneless Chicken — Garlic Mayo",
+          "description": "Crispy boneless chicken with garlic mayo flavor. Includes unli rice, free softdrinks & soup.",
+          "price": 129,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pastil-jars",
+      "name": "Pastil Jars",
+      "subtitle": "Take-home pastil in a jar",
+      "icon": "jar",
+      "items": [
+        {
+          "id": "jar-spicy",
+          "name": "Spicy Pastil Jar",
+          "description": "Chicken pastil in a jar — Spicy flavor",
+          "price": 119,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "jar-original",
+          "name": "Original Pastil Jar",
+          "description": "Chicken pastil in a jar — Original flavor",
+          "price": 109,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "petsa-peligro",
+      "name": "Petsa D Peligro",
+      "subtitle": "1 Rice Only w/ Soup",
+      "icon": "plate",
+      "items": [
+        {
+          "id": "pdp-hotsilog",
+          "name": "Hotsilog",
+          "description": "Hotdog, sinangag, itlog. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pdp-shanghai",
+          "name": "Shanghai",
+          "description": "Lumpiang shanghai. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pdp-longganisa",
+          "name": "Longganisa",
+          "description": "Longganisa, sinangag, itlog. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pdp-luncheon",
+          "name": "Luncheon",
+          "description": "Luncheon meat. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pdp-nuggets",
+          "name": "Nuggets",
+          "description": "Chicken nuggets. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "pdp-poppers",
+          "name": "Chicken Poppers",
+          "description": "Crispy chicken poppers. Served with 1 rice and soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "solo-orders",
+      "name": "Solo Orders",
+      "subtitle": "Snacks & sides",
+      "icon": "fries",
+      "items": [
+        {
+          "id": "solo-fries",
+          "name": "Fries",
+          "description": "Crispy fries — available in Cheese, BBQ, Sour Cream",
+          "price": 68,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-poppers",
+          "name": "Chicken Poppers",
+          "description": "Available in Honey, Butter, Chilli Cheese",
+          "price": 68,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-onion-rings",
+          "name": "Onion Rings",
+          "description": "Crispy golden onion rings",
+          "price": 68,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-nuggets",
+          "name": "Nuggets (10 pcs)",
+          "description": "10 pieces of chicken nuggets",
+          "price": 170,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-shanghai-10",
+          "name": "Shanghai (10 pcs)",
+          "description": "10 pieces of lumpiang shanghai",
+          "price": 120,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-nuggets-58",
+          "name": "Nuggets",
+          "description": "Chicken nuggets — solo order",
+          "price": 58,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "solo-shanghai-20",
+          "name": "Shanghai (20 pcs)",
+          "description": "20 pieces of lumpiang shanghai",
+          "price": 220,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "may-budget",
+      "name": "May Budget",
+      "subtitle": "Unli Rice + Free Softdrinks + Soup",
+      "icon": "star",
+      "items": [
+        {
+          "id": "mb-pork-tapa",
+          "name": "Pork Tapa",
+          "description": "Pork tapa with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-pork-sisig",
+          "name": "Pork Sisig",
+          "description": "Pork sisig with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-bangus",
+          "name": "Bangus (Boneless)",
+          "description": "Boneless bangus with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-dinakdakan",
+          "name": "Dinakdakan",
+          "description": "Dinakdakan with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-tocilog",
+          "name": "Tocilog",
+          "description": "Tocino, sinangag, itlog with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-chicken-fillet",
+          "name": "Chicken Fillet",
+          "description": "Chicken fillet with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-cheesy-hungarian",
+          "name": "Cheesy Hungarian",
+          "description": "Cheesy Hungarian sausage with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "mb-tonkatsu",
+          "name": "Tonkatsu",
+          "description": "Pork tonkatsu with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "short-order",
+      "name": "Short Order",
+      "subtitle": "A la carte mains",
+      "icon": "fork",
+      "items": [
+        {
+          "id": "so-beef-sisig",
+          "name": "Beef Sisig",
+          "description": "Sizzling beef sisig — short order",
+          "price": 150,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "so-beef-tapa",
+          "name": "Beef Tapa",
+          "description": "Beef tapa — short order",
+          "price": 150,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "so-dinakdakan",
+          "name": "Dinakdakan",
+          "description": "Dinakdakan — short order",
+          "price": 150,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "so-chicken",
+          "name": "Chicken",
+          "description": "Chicken — short order",
+          "price": 130,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "so-liempo",
+          "name": "Liempo",
+          "description": "Grilled liempo — short order",
+          "price": 130,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "so-pork-bagnet",
+          "name": "Pork Bagnet",
+          "description": "Crispy pork bagnet — short order",
+          "price": 130,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "so-pork-sisig",
+          "name": "Pork Sisig",
+          "description": "Sizzling pork sisig — short order",
+          "price": 95,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "so-pork-tapa",
+          "name": "Pork Tapa",
+          "description": "Pork tapa — short order",
+          "price": 90,
+          "badge": "",
+          "available": true
+        },
+        {
+          "id": "so-porkchop",
+          "name": "Porkchop",
+          "description": "Pan-fried porkchop — short order",
+          "price": 85,
+          "badge": "",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "paldo-meal",
+      "name": "Paldo Meal",
+      "subtitle": "Unli Rice + Free Softdrinks + Soup",
+      "icon": "trophy",
+      "items": [
+        {
+          "id": "pm-chicken-silog",
+          "name": "Chicken Silog",
+          "description": "Chicken, sinangag, itlog with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-liempo-silog",
+          "name": "Liempo Silog",
+          "description": "Liempo, sinangag, itlog with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-bagnet",
+          "name": "Bagnet",
+          "description": "Crispy bagnet with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-beef-sisig",
+          "name": "Beef Sisig",
+          "description": "Sizzling beef sisig with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-beef-tapa",
+          "name": "Beef Tapa",
+          "description": "Beef tapa with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-smoked-bacon",
+          "name": "Smoked Bacon",
+          "description": "Smoked bacon with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        },
+        {
+          "id": "pm-pork-chop",
+          "name": "Pork Chop",
+          "description": "Pan-fried pork chop with unli rice, free softdrinks & soup.",
+          "price": 139,
+          "badge": "Bestseller",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "create-your-combo",
+      "name": "Create Your Own Combo",
+      "subtitle": "Pick any main from May Budget or Paldo Meal — ₱199 Only",
+      "icon": "combo",
+      "items": [
+        {
+          "id": "cyoc-combo",
+          "name": "Create Your Own Combo",
+          "description": "Choose 1 main dish from May Budget or Paldo Meal. Comes with 2 rice, egg & soup. Add extras: Longganisa +₱40, Luncheon +₱25, Rice +₱20, Fried Egg +₱15. Example: Dinak + Chicken Silog.",
+          "price": 199,
+          "badge": "Best Deal",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
