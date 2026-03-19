@@ -18,7 +18,7 @@ const $ = id => document.getElementById(id);
    ============================================================ */
 async function init() {
   try {
-    const res  = await fetch('data/menu.json');
+    const res  = await fetch('/data/menu.json');
     MENU       = await res.json();
     window.MENU = MENU; // expose for footer script
     window.dispatchEvent(new Event('menu-loaded'));
